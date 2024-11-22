@@ -29,8 +29,11 @@ section {
 }
 
 form {
-    max-width: 80vw;
+    max-width: 90%;
     background: #ccc;
+}
+
+fieldset {
     border: none;
 }
 
@@ -46,4 +49,17 @@ div {
     margin: 32px;
     margin-bottom: 0;
     padding: 10px;
+}
+
+label {
+    color: orangered;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px orangered solid;
+    padding: 15px;
 }
